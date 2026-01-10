@@ -113,3 +113,53 @@
 		}
 	}
 }
+
+.profile {
+	&-card {
+          background-color: var(--main-black);
+		  padding: var(--padding-xl);
+		  border-radius: var(--radius-md);
+		  width: 100%;
+		  max-width: auto-fit;
+		  height: 100%;
+		  
+	}
+	&-name {
+		font-weight: var(--font-weight-headings);
+		color: var(--main-secondary);
+		top: -80px;
+	}
+
+	&-text {
+         color: var(--main-white);
+		 font-size: 30px;
+
+		 &-p1{
+            bottom: 30px;
+		 }
+	}
+}
+
+.project {
+	&-title {
+		color: var(--main-black);
+		top:-50px
+		
+	}
+
+	&-icon4 {
+		width:24px;
+		height:24px;
+		padding:var(--padding-sm);
+	}
+
+	&-column{
+		gap: var(--gap-xs);
+	}
+
+	&-span {
+		background-color: var(--main-complimentary);
+		color:var(--main-black);
+		padding:var(--padding-xxs)
+	}
+}
